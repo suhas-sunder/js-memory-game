@@ -20,11 +20,19 @@ h1 {
   grid-gap: 2rem;
 }
 
-.square {
+.square,
+.completed {
   color: black;
   font-size: 3rem;
   padding: 1em;
   background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.completed {
+  color: black;
+  background-color: lightgreen;
 }
 
 .square:hover {
