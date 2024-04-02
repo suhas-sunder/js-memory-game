@@ -24,11 +24,16 @@ const shuffled = memoryArr
 
 const squares = document.getElementById("squares");
 
+const handleClick = (e) => {
+  e.target.style.color === "white" ?  e.target.style.color = "black" : e.target.style.color = "white";
+};
+
 shuffled.forEach((square) => {
-  const newDiv = document.createElement("div");
+  const newDiv = document.createElement("button");
   const newSquare = document.createTextNode(square);
   newDiv.appendChild(newSquare);
   newDiv.classList.add("square");
+  newDiv.onclick = handleClick;
 
   squares.appendChild(newDiv);
 });
