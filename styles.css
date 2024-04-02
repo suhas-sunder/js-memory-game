@@ -1,0 +1,32 @@
+body {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.4em;
+  font-size: 3.5rem;
+}
+
+.squares {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+}
+
+.square {
+  color: black;
+  font-size: 3rem;
+  padding: 1em;
+  background-color: black;
+}
+
+.square:hover {
+  cursor: pointer;
+}
