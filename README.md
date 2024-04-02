@@ -7,6 +7,9 @@ I enjoy undertaking quick projects like this for fun, as they provide an opportu
 
 Feel free to explore the code and provide any feedback or suggestions. Enjoy!
 
+![image](https://github.com/suhas-sunder/js-memory-game/assets/77464593/820a7ecf-dd3c-45d4-a085-8b47bd549c9e)
+
+
 ---
 
 **About Me:**
